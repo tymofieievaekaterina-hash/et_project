@@ -1,5 +1,5 @@
 # Определение периодов очередей на кассах.
-Расчет выполнен в MS Excel и MS SQL Server.
+Расчет выполнен в MS Excel <a href="https://docs.google.com/spreadsheets/d/1how25BGr3EpHXdVDnQRcVqSLRjWSEQ2g7zO-qVX8M7A/edit?usp=sharing">(файл по ссылке)</a> и MS SQL Server.
 Как источник данных использована объединенная таблица из файлов "store_checkout_queues" и "store_stores". Объединение данных по чекам и магазинам, фильтрация данных по магазинам с id=98451680 и id=12864064 произведидино в Excel с помощью функционала надстройки Excel - Power Query. В результате получена таблицу со следующими полями:
 checks_number
 store_id
